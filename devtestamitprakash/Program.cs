@@ -6,7 +6,11 @@ namespace devtestamitprakash
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UserInput _userInput = new UserInput();
+            _userInput.orderDetails();
+
+            Console.ReadLine();
+
         }
     }
 }
