@@ -1,10 +1,12 @@
 ﻿using System;
 namespace devtestamitprakash
 {
-    public class UserInput
+    public class UserInput :IPriceCalculation
     {
         public UserInput()
         {
+
+
         }
     }
 }
