@@ -5,6 +5,7 @@ namespace devtestamitprakash
     {
         public PromotionDetails()
         {
+
         }
     }
 }
