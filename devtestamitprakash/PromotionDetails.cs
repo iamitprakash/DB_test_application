@@ -39,5 +39,37 @@ namespace devtestamitprakash
             return 0;
         }
 
+        //promo form type C & D
+        public int promoType3(int C, int D)
+        {
+            if (C == 1 && D == 1)
+            {
+                return 30;
+            }
+
+            else if (C == 1 & D == 0)
+            {
+                return C * 20;
+            }
+
+            else if (C == 0 & D == 1)
+            {
+                return D * 15;
+            }
+
+            else if (C >= 1 || D >= 1)
+            {
+                if (C > D)
+                {
+                    return (C - D) * 20 + D * 30;
+                }
+                else
+                    return (D - C) * 15 + C * 30;
+            }
+
+            return 0;
+        }
+
+
     }
 }
